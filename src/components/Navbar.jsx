@@ -13,6 +13,7 @@ import {
 import { setMode } from 'state';
 
 const Navbar = ({
+  user,
   isSidebarOpen,
   setIsSidebarOpen
 }) => {
